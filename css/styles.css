@@ -154,11 +154,13 @@ header img{
 .gallery-img{
     height:100px;
     width:150px;
+
 }
 .gallery{
     height:600px;
     width:800px;
     margin:20 px;
+    background-color:blue;
 }
 .images{
     width:auto;
@@ -169,6 +171,7 @@ header img{
     background-color:#edf9ff ;
     display:flex;
     justify-content:space-between;
+    background-color:green;
 }
 .comments{
     height:600px;
@@ -198,6 +201,11 @@ header img{
     display:flex;
     justify-content:space-between;
     flex-direction: row;
+    align-items:center;
+    height:400px;
+    width:300px;
+    background-color:red;
+    position: relative; 
 }
 .ways-img{
     margin-right:100px;
@@ -217,6 +225,7 @@ background-color: #edf9ff;
 height:400px;
 width:300px;
 border-radius: 5px;
+background-color:red;
 }
 
 /**********************Last Section*************************/
@@ -224,6 +233,7 @@ border-radius: 5px;
 display: flex;
 flex-direction: row;
 justify-content:center;
+background-color:red;
 }
 .contact-card{
     height:300px;
@@ -234,8 +244,9 @@ justify-content:center;
     display: flex;
     flex-direction: column;
 }
-footer{
+.footer-container{
 display: flex;
 flex-direction: row;
 justify-content:center;
+background-color:pink;
 }
