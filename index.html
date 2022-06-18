@@ -278,27 +278,37 @@
 
  <!-- *****************************Last Section********************************* -->
 <div class="last-section">
+  <div class="card-container">
     <div class="contact-card">
       <h1>Get In Touch</h1>
       <p>The quick fox jumps over the lazy dog</p>
       <form action="" method="" class="Form-card">
           <div class="first-ligne">
-              <label for="name">Full Name</label>
+            <label for="name">Full Name</label> <br>
+            <label for="mail">Email address</label><br>
+          </div>
+            <div class="first-ligne">   
               <input type="text" placeholder="Sapious" name="name">
-              <label for="mail">Email address</label>
               <input type="text" placeholder="me@example.com" name="mail">
           </div>
+          <label for="options" id="opt">Where did you hear from us ?</label>
           <div class="Second-ligne">
-              <label for="options">Where did you hear from us ?</label>
-              <input type="checkbox" name="options" id="options" placeholder="Please choose one option:">
-              <input type="button" value="Contact Us" class="contact-btn">
+    
+            <select id="options">
+              <option value="University">University</option>
+              <option value="Linkedin">Linkedin</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Friend">Friend</option>
+            </select>
+              <button type="button"  class="contact-btn">Contact Us</button>
           </div>
       </form>
     </div>
     <div class="contact-img">
-      <img src="./img/coding.jpg" alt="coding" height="280px" width="340px">
+      <img src="./img/coding.jpg" alt="coding" height="350px" width="300px" style="border-radius:0px 10px 10px 0px" >
 
     </div>
+  </div>
 
 
 
@@ -307,52 +317,56 @@
 </div>
 
   <!-- *****************************Footer********************************* -->
+  <hr>
   <footer>
     <div class="footer-container">
-  
-    <div class="footer-col">
-          <div class="footer-logo">
-            <img class="logo-img"src="./img/logo.svg" alt="logo-img">
-          </div>
-          <div class="footer-socials">
-
-          </div>
-          <p> Copyright &copy; 2022 by Sapious.<br> All rights reserved.</p>
-    </div>
-    <div class="footer-col">
-        <h4>Contact us</h4>
-        <p>Lorem ipsum dolor sit<br>amet consectetur adipisicing elit.</p>
-        <p>quaerat aperiam accusamus corrupti <br>est similique ipsam maxime aliquid </p>
-    </div>
-    <div class="footer-col">
-        <h4>Account</h4>
-        <ul>
-          <li><a href="#">Create account</a></li>
-          <li><a href="#">Sign in </a></li>
-          <li><a href="#">IOS app</a></li>
-          <li><a href="#">Android app</a></li>
-        </ul>
-        
-    </div>
-    <div class="footer-col">
-        <h4>Company</h4>
-        <ul>
-          <li><a href="#">About Sapious</a></li>
-          <li><a href="#">For business </a></li>
-          <li><a href="#">Cooking partners</a></li>
-          <li><a href="#">Careers</a></li>
-        </ul>
-    </div>
-    <div class="footer-col">
-        <h4>Resources</h4>
-        <ul>
-          <li><a href="#">Help center</a></li>
-          <li><a href="#">Privacy & terms </a></li>
-        </ul>
-        
-    </div>
+    <div class="row">
+        <div class="footer-col">
+              <div class="footer-logo">
+                <img class="logo-img-footer"src="./img/logo.svg" alt="logo-img">
+              </div>
+              <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <p> Copyright &copy; 2022 by Sapious.<br> All rights reserved.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Contact us</h4>
+            <p>Lorem ipsum dolor sit<br>amet adipisicing elit.</p>
+            <p>quaerat aperiam acorrupti <br>est maxime aliquid </p>
+        </div>
+        <div class="footer-col">
+            <h4>Account</h4>
+            <ul>
+              <li><a href="#">Create account</a></li>
+              <li><a href="#">Sign in </a></li>
+              <li><a href="#">IOS app</a></li>
+              <li><a href="#">Android app</a></li>
+            </ul>
+            
+        </div>
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Sapious</a></li>
+              <li><a href="#">For business </a></li>
+              <li><a href="#">Cooking partners</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#">Help center</a></li>
+              <li><a href="#">Privacy & terms </a></li>
+            </ul>
+            
+        </div>
+      </div>
   </div>
-  </footer>
+</footer>
 </div>
 </body>
 </html>

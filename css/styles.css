@@ -160,7 +160,7 @@ header img{
     height:600px;
     width:800px;
     margin:20 px;
-    background-color:blue;
+   
 }
 .images{
     width:auto;
@@ -171,7 +171,7 @@ header img{
     background-color:#edf9ff ;
     display:flex;
     justify-content:space-between;
-    background-color:green;
+    
 }
 .comments{
     height:600px;
@@ -204,11 +204,13 @@ header img{
     align-items:center;
     height:400px;
     width:300px;
-    background-color:red;
+    
     position: relative; 
 }
 .ways-img{
     margin-right:100px;
+    background-color:#edf9ff ;
+    padding:4px 8px;
 }
 .front-card{
     background-color: white;
@@ -225,28 +227,148 @@ background-color: #edf9ff;
 height:400px;
 width:300px;
 border-radius: 5px;
-background-color:red;
+
 }
 
 /**********************Last Section*************************/
 .last-section{
-display: flex;
-flex-direction: row;
-justify-content:center;
-background-color:red;
+
+margin-bottom: 40px;
 }
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 60px 40px;
+    
+}
+.contact-card h1{
+color:#07a3e9 ;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+.contact-btn{
+    border: none; 
+    background-color:#07a3e9;
+    padding:10px 70px;
+    color: white;
+    font-size: 12px;
+    font-weight:550;
+    border-radius: 4px;
+}
+.contact-card p{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    }
 .contact-card{
-    height:300px;
+    height:350px;
     width:600px;
     background-color: #edf9ff;
+    padding: 60px 40px;
+    box-shadow: -20px -20px 40px rgb(255,255,255,-7),20px 20px 40px rgb(0,0,0,-1) ;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.Form-card input{
+    border: none;
+    border-radius: 6px;
+    padding:10px 20px ;
+    margin-right: 20px;
+}
+.Second-ligne select{
+    border: none;
+    border-radius: 6px;
+    padding:10px 60.5px ;
+    margin-right: 20px;
 }
 .Form-card{
     display: flex;
     flex-direction: column;
+    
+}
+.first-ligne label{
+margin-right: 166px;
+margin-bottom: 10px;
+font-size: 11px;
+color: #333;
+font-weight: 500;
+}
+#opt{
+    
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: #333;
+    font-weight: 500;
+    }
+.first-ligne{
+    display: flex;
+    flex-direction: row;
+  
+}
+.first-ligne input{
+    
+    margin-bottom: 25px;
+}
+
+.Second-ligne{
+    display: flex;
+    flex-direction: row;  
+}
+.footer-container ul{
+    list-style: none;
 }
 .footer-container{
-display: flex;
-flex-direction: row;
-justify-content:center;
-background-color:pink;
+max-width:1170px;
+margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+}
+.footer{
+    padding: 70px 0;
+
+}
+.footer-col{
+    width: 20%;
+    padding:0 15px;
+    margin-bottom: 100px;
+}
+.footer-col h4 {
+    font-size: 16px;
+    color: #555 ;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top:100px;
+}
+.footer-col p{
+    margin-bottom: 25px; 
+}
+.footer-col li{
+    margin-bottom: 20px;
+    color:#555;
+    font-size: 12px;
+}
+.footer-socials{
+    margin-bottom: 20px;
+     
+}
+.footer-socials a{
+    margin-right: 10px;
+    margin-left: 5px;
+     
+}
+.logo-img-footer{
+    margin-top:100px;
+    width: 80px;
+    margin-bottom: 30px; 
+}
+hr{
+    border-top: 0px solid ;
+}
+.footer-col P{
+    font-size: 12px;
+    color: #555 ;
+    font-weight: 300;
 }
