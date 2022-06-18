@@ -146,9 +146,7 @@ header img{
     border-radius: 50%;
     padding:10px 14px;
 }
-#box-1,#box-2,#box-3,#box-3,#box-3{
-    margin-right: 20px;
-}
+
 
 /**********************Third Section*************************/
 .gallery-img{
@@ -158,34 +156,62 @@ header img{
 }
 .gallery{
     height:600px;
-    width:800px;
+    width:700px;
     margin:20 px;
+   
+   
+}
+.gallary-container{
+    
+    margin-top:170px;
    
 }
 .images{
     width:auto;
     height:auto;
     margin:50 px;
+   
 }
 .third-section{
-    background-color:#edf9ff ;
+    
     display:flex;
     justify-content:space-between;
+   
     
 }
-.comments{
-    height:600px;
-    width:800px;
-     
+.descp{
+font-size:12px;
+margin-bottom: 5px;
+}
+.name{
+    font-size:8px;
+}
+.ss-prag{
+    
+    margin-top: 80px;
+    margin-left:250PX;
+
+}
+
+.comment{
+    margin: 35px;
+    
 }
 .comment-box  {
     display:flex;
     justify-content:space-between;
+    background-color:#edf9ff ;
+    height:220px;
+    width:500px;
+    margin-left:220PX;
+
+
 }
+
 .comment-img{
     border-radius: 50%;
     width:30Px;
-    height:20px;  
+    height:30px;  
 }
 .forth-section{
     display:flex;
@@ -197,20 +223,41 @@ header img{
     justify-content:space-between;
     
 }
+.middle-section{
+    display:flex;
+    padding: 60px 40px;
+    
+}
 .ways-images{
     display:flex;
-    justify-content:space-between;
-    flex-direction: row;
-    align-items:center;
-    height:400px;
-    width:300px;
+    justify-content:space-around;
+    align-self:center;
+    height:200px;
+    width:900px;
+    margin-left:280px;
+    margin-top: 80px;
+    margin-bottom: 100px;
     
-    position: relative; 
 }
-.ways-img{
-    margin-right:100px;
-    background-color:#edf9ff ;
-    padding:4px 8px;
+.text-sep{
+    text-align: center;
+    font-size:12px;
+    margin-top: 40px;
+}
+.ms-img{
+    height:60px;
+    width:60px;
+    background-color: #edf9ff;
+    padding:10px;
+    border-radius: 50px;
+    margin-bottom:20px;
+}
+.ways-img p{
+    font-size:12px;
+}
+.ways-img h5{
+   color: #333;
+   font-weight:600;
 }
 .front-card{
     background-color: white;
@@ -221,6 +268,72 @@ header img{
     margin-right: 25px;
     border-radius: 5px;
     border-width: 1.5px;
+}
+.fullstack-card h4{
+    color:#07a3e9;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:20px;  
+}
+.fullstack-card p{
+    text-align: center;
+    font-size:14px;
+    margin-bottom: 15px;
+}
+.fullstack-card i{
+    color:#07a3e9;
+    margin-right: 10px;
+}
+.front-card h4{
+    color:#07a3e9;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:20px; 
+}
+.front-card p{
+    text-align: center;
+    font-size:14px;
+    margin-bottom: 15px;
+}
+.formule {
+    margin-top:30px;
+    
+}
+.start1{
+    border: none; 
+    background-color:#07a3e9;
+    padding:7px 18px;
+    color: white;
+    font-size: 12px;
+    font-weight:550;
+    border-radius: 4px; 
+    margin-right:10px;
+    margin-left:30%;
+    margin-top: 40px;
+    padding:12px 30px;
+   
+}
+
+.front-card i{
+    color:#07a3e9;
+    margin-right: 10px;
+}
+.price-div{
+display: flex;
+align-items: center;
+
+margin-top: 20px;
+margin-bottom:14px;
+}
+.price-div h6{
+   margin-left: 35%;
+   font-size: medium;
+   font-weight: 400;
+   margin-top: 14px;
+}
+.price-div h1{
+    font-size: 40px;
+    color:#333;
 }
 .fullstack-card{
 background-color: #edf9ff;
